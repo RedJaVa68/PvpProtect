@@ -1,0 +1,12 @@
+name: PvpProtect
+main: com.crimsonempires.RedJaVa.PvpProtect
+version: 1.8
+
+permissions:
+  pvpprotect.*:
+    description: only for ops
+    children:
+      pvpprotect.pvpprotect
+  pvpprotect.pvpprotect:
+    description: only for ops
+    default: op
